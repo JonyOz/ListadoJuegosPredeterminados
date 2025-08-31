@@ -67,7 +67,7 @@ body {
 }
 
 .hero {
-  background: url('/img/banner.jpg') no-repeat center/cover;
+  background: url('banner.jpg') no-repeat center/cover;
   padding: 5rem 1rem;
   text-align: center;
   border-radius: 8px;
