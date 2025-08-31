@@ -67,7 +67,7 @@ body {
 }
 
 .hero {
-  background: url('banner.jpg') no-repeat center/cover;
+  background: url('/img/banner.jpg') no-repeat center/cover;
   padding: 5rem 1rem;
   text-align: center;
   border-radius: 8px;
@@ -200,35 +200,43 @@ body {
   }
 }
 
-/* Sidebar oculto en móviles */
-.sidebar {
+/* Botón hamburguesa oculto por defecto */
+.hamburger {
+  display: none;
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  font-size: 28px;
+  background: none;
+  border: none;
+  color: white;
+  z-index: 1001;
+  cursor: pointer;
+}
+
+/* Sidebar en móviles */
+@media (max-width: 768px) {
+  .sidebar {
     position: fixed;
     top: 0;
-    left: -250px;
-    width: 200px;
-    height: 100%;
-    background: #333;
-    color: white;
-    transition: left 0.3s ease;
-}
-
-.sidebar.active {
     left: 0;
-}
+    width: 220px;
+    height: 100%;
+    background: #162030;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+    z-index: 1000;
+  }
 
-/* Hamburguesa */
-.hamburger {
-    display: none;
-    font-size: 24px;
-    background: none;
-    border: none;
-    color: white;
-    margin: 10px;
-}
+  .sidebar.active {
+    transform: translateX(0);
+  }
 
-/* Solo aparece en móviles */
-@media (max-width: 768px) {
-    .hamburger {
-        display: block;
-    }
+  .content {
+    margin-left: 0; /* para que no empuje en móviles */
+  }
+
+  .hamburger {
+    display: block; /* visible en móviles */
+  }
 }
