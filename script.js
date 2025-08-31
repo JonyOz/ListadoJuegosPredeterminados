@@ -32,6 +32,8 @@ document.addEventListener("DOMContentLoaded", () => {
     "NeoGeo": "neogeo",
     "NeoGeo Pocket": "ngp", // ajusta si tu archivo tiene otro nombre
     "WonderSwan": "ws",
+    "PCE": "pce",
+    "PCECD": "pcecd",
     "CPS 1": "cps1",
     "CPS 2": "cps2",
     "CPS 3": "cps3",
