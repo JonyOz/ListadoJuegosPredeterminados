@@ -1,0 +1,65 @@
+'Balloon Fight.nes'
+ BANANA.NES
+'Batman - Return of the Joker (USA).nes'
+ BattleOfOlympus.nes
+'Battletoads (Europe).nes'
+ blstmstr.nes
+'Bubble Bobble.nes'
+'Castlevania III - Dracula'\''s Curse (E).nes'
+"Castlevania II - Simon's Quest.nes"
+'Castlevania I.nes'
+'Circus Charlie (ESP).nes'
+ Contra.nes
+'Cosmic Epsilon (Japan) [T-En by Stardust Crusaders v1.0].nes'
+'Crisis Force (Japan).nes'
+'Daiva Story 6 - Imperial of Nirsartia (Japan) [T-En by MrRichard999 v1.0] [n].nes'
+'Donkey Kong 1.nes'
+'Donkey Kong. Jr.nes'
+'Double Dragon II - The Revenge.nes'
+'Dr Mario.nes'
+'Duck Hunt (VS).nes'
+ Excitebike.nes
+'Final Fantasy.nes'
+'Flying Warriors (USA).nes'
+ Galaga.nes
+"Ghosts'n Goblins.nes"
+ Gradius.nes
+'Guardian Legend, The (U).NES'
+'Gyruss (U).nes'
+'Ice Climber.nes'
+'Isolated Warrior (E).nes'
+'Journey to Silius (U).NES'
+'Kid Icarus.nes'
+"Kirby's Adventure.nes"
+'Kyatto Ninden Teyandee.nes'
+'Little Nemo - The Dream Master (E).nes'
+'Low G Man (E).nes'
+'Mario Bros.nes'
+'Mega Man 2.nes'
+ MEGAMAN2.NES
+ MEGAMAN3.NES
+ MEGAMAN4.NES
+ megaman5.nes
+ MEGAMAN6.NES
+ MEGAMAN.NES
+'Metal Storm (USA).nes'
+ Metroid.nes
+ Mighty_final_fight.nes
+'Mr Gimmick! (J).nes'
+'Ninja Gaiden.nes'
+ Pac-Man.nes
+'Punch-Out!!.nes'
+'Shadow of the Ninja (USA).nes'
+'Shatterhand (Europe).nes'
+ Startropics.nes
+'Super C.nes'
+ SUPERC.NES
+'Super Mario Bros 1.nes'
+'Super Mario Bros 2.nes'
+'Super Mario Bros 3.nes'
+'Super Spy Hunter (Europe).nes'
+'Tecmo Bowl.nes'
+'The Legend Of Zelda II - Adventure Of Link.nes'
+'The Legend Of Zelda I.nes'
+'Ufouria - The Saga (Europe).nes'
+'Zen - Intergalactic Ninja (USA).nes'

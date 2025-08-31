@@ -1,0 +1,36 @@
+'Alien Syndrome.cso'                     
+ guruming.cso
+"Assassin's Creed Bloodlines.cso"        
+ hameringhero.cso
+'Burnout Legends.cso'                    
+kilzone.cso
+'Castlevania Dracula X Chronicles.cso'   
+metal slug XX.cso
+'Code Arms.cso'                          
+M.A.C.H_EUR_PSP-pSyPSP
+'Crash Team Racing.cso'                 
+'Megaman X.cso'
+ crush.cso                              
+  patapon.cso
+'darius gaiden.cso'                     '
+PES 2022.cso'
+ darkerstalkers.cso                     
+ 'ridge racer 2.cso'
+ daxter.cso                             
+ 'Secret Agent Clank.cso'
+ Dead_To_Rigths_Reckoning.cso           
+ 'Shinobido - Tales of the Ninja.cso'
+'dragon ball shinbodakai 2.cso'         
+'Sonic Rivals 2.cso'
+ exit1.cso                              
+ 'spider-man web of shadows.cso'
+ exit2.cso                              
+  steamboot-chronicles.cso
+'Free Running.cso'                      
+'street fighter alpha 3.cso'
+'Full Auto 2.cso'                       
+'Super Monkey Ball Adventure.cso'
+ gta-chinatownwars.cso                  
+ 'tekken 5.cso'
+'guilty gear jundament.cso'             
+'Wipeout Pulse.cso'
