@@ -12,7 +12,16 @@ body {
   background: #2e3b4e;
   color: #fff;
   min-height: 100vh;
+  flex-direction: column;
 }
+
+/* Contenedor principal para sidebar + contenido */
+.main-layout {
+  display: flex;
+  flex: 1;  /* ocupa todo el espacio entre header/sidebar y footer */
+  min-height: 0; 
+}
+
 
 /* ====== SIDEBAR ====== */
 .sidebar {
@@ -231,6 +240,9 @@ body {
     transform: translateX(-100%);
     transition: transform 0.3s ease;
     z-index: 1000;
+
+    height: 100vh;         /* ocupa todo el alto de la ventana */
+    overflow-y: auto;
   }
 
   .sidebar.active {
@@ -246,3 +258,29 @@ body {
   }
 }
 
+/* Scrollbar estilizado solo en la sidebar */
+.sidebar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background: #273347;
+  border-radius: 4px;
+}
+
+.sidebar::-webkit-scrollbar-thumb:hover {
+  background: #3b4a63;
+}
+
+/* ====== FOOTER ====== */
+.footer {
+  background: #162030;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: auto;   /* 👈 Esto lo empuja siempre hacia abajo */
+  width: 100%;
+  font-size: 0.9rem;
+  border-top: 1px solid #273347;
+  margin-top: auto;
+}
