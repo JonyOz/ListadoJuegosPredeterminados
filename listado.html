@@ -9,57 +9,66 @@
 <body>
 
   <!-- Botón hamburguesa (solo se verá en móviles) -->
-    <button id="hamburger" class="hamburger" aria-label="Menú">
-  ☰
-</button>
+  <button id="hamburger" class="hamburger" aria-label="Menú">
+    ☰
+  </button>
 
-  <aside class="sidebar" id="sidebar">
-    <a href="index.html"><img src="logo.jpg" alt="Logo JoZ Games" class="logo"></a>
-    <p>Bienvenido a JoZ Games<br>Donde el retroaming vive</p>
-    <nav>
-      <ul>
-        
-       <li><a href="listado.html?console=gb">GameBoy</a></li>
-        <li><a href="listado.html?console=gbc">GameBoy Color</a></li>
-        <li><a href="listado.html?console=gba">GameBoy Advance</a></li>
-        <li><a href="listado.html?console=nds">Nintendo DS</a></li>
-        <li><a href="listado.html?console=pokemini">Pokemon Mini</a></li>
-        <li><a href="listado.html?console=vb">VirtualBoy</a></li>
-        <li><a href="listado.html?console=nes">Nintendo NES</a></li>
-        <li><a href="listado.html?console=snes">Super Nintendo</a></li>
-        <li><a href="listado.html?console=n64">Nintendo 64</a></li>
-        <li><a href="listado.html?console=psx">Playstation</a></li>
-        <li><a href="listado.html?console=psp">Playstation Portable</a></li>
-        <li><a href="listado.html?console=sms">Sega Master System</a></li>
-        <li><a href="listado.html?console=gg">Sega Game Gear</a></li>
-        <li><a href="listado.html?console=md">Sega Mega Drive</a></li>
-        <li><a href="listado.html?console=scd">Sega CD</a></li>
-        <li><a href="listado.html=console=32x">Sega 32X</a></li>
-        <li><a href="listado.html?console=dc">Sega Dreamcast</a></li>
-        <li><a href="listado.html?console=naomi">Sega Naomi</a></li>
-        <li><a href="listado.html?console=atomiswave">Sega Atomiswave</a></li>
-        <li><a href="listado.html?console=neogeo">SNK NeoGeo</a></li>
-        <li><a href="listado.html?console=ngp">SNK NeoGeo Pocket</a></li>
-        <li><a href="listado.html?console=ws">WonderSwan</a></li>
-        <li><a href="listado.html?console=pce">PC Engine</a></li>
-        <li><a href="listado.html?console=pcecd">PC Engine CD</a></li>
-        <li><a href="listado.html?console=cps1">Capcom CPS 1</a></li>
-        <li><a href="listado.html?console=cps2">Capcom CPS 2</a></li>
-        <li><a href="listado.html?console=cps3">Capcom CPS 3</a></li>
-        <li><a href="listado.html?console=ports">Ports</a></li>
-      </ul>
-    </nav>
-  </aside>
+  <!-- Layout principal (sidebar + contenido) -->
+  <div class="main-layout">
+    <aside class="sidebar" id="sidebar">
+      <a href="index.html"><img src="logo.jpg" alt="Logo JoZ Games" class="logo"></a>
+      <p>Bienvenido a JoZ Games<br>Donde el retrogaming vive</p>
+      <nav>
+        <ul>
+          <li><a href="listado.html?console=gb">GameBoy</a></li>
+          <li><a href="listado.html?console=gbc">GameBoy Color</a></li>
+          <li><a href="listado.html?console=gba">GameBoy Advance</a></li>
+          <li><a href="listado.html?console=nds">Nintendo DS</a></li>
+          <li><a href="listado.html?console=pokemini">Pokemon Mini</a></li>
+          <li><a href="listado.html?console=vb">VirtualBoy</a></li>
+          <li><a href="listado.html?console=nes">Nintendo NES</a></li>
+          <li><a href="listado.html?console=snes">Super Nintendo</a></li>
+          <li><a href="listado.html?console=n64">Nintendo 64</a></li>
+          <li><a href="listado.html?console=psx">Playstation</a></li>
+          <li><a href="listado.html?console=psp">Playstation Portable</a></li>
+          <li><a href="listado.html?console=sms">Sega Master System</a></li>
+          <li><a href="listado.html?console=gg">Sega Game Gear</a></li>
+          <li><a href="listado.html?console=md">Sega Mega Drive</a></li>
+          <li><a href="listado.html?console=scd">Sega CD</a></li>
+          <li><a href="listado.html?console=32x">Sega 32X</a></li>
+          <li><a href="listado.html?console=dc">Sega Dreamcast</a></li>
+          <li><a href="listado.html?console=naomi">Sega Naomi</a></li>
+          <li><a href="listado.html?console=atomiswave">Sega Atomiswave</a></li>
+          <li><a href="listado.html?console=neogeo">SNK NeoGeo</a></li>
+          <li><a href="listado.html?console=ngp">SNK NeoGeo Pocket</a></li>
+          <li><a href="listado.html?console=ws">WonderSwan</a></li>
+          <li><a href="listado.html?console=pce">PC Engine</a></li>
+          <li><a href="listado.html?console=pcecd">PC Engine CD</a></li>
+          <li><a href="listado.html?console=cps1">Capcom CPS 1</a></li>
+          <li><a href="listado.html?console=cps2">Capcom CPS 2</a></li>
+          <li><a href="listado.html?console=cps3">Capcom CPS 3</a></li>
+          <li><a href="listado.html?console=ports">Ports</a></li>
+        </ul>
+      </nav>
+    </aside>
 
-  <main class="content-list">
-    <header class="hero">
-      <h1 id="titulo">Listado de Juegos</h1>
-    </header>
+    <main class="content-list">
+      <header class="hero">
+        <h1 id="titulo">Listado de Juegos</h1>
+      </header>
 
-    <section class="listado">
-      <ol id="lista-juegos"></ol>
-    </section>
-  </main>
+      <section class="listado">
+        <ol id="lista-juegos"></ol>
+      </section>
+    </main>
+  </div>
+
+  <!-- Footer fijo abajo -->
+  <footer class="footer">
+    <p>© 2025 JoZ Games - Donde el retrogaming vive <br>
+    Encuéntranos y contáctanos vía WhatsApp o en nuestras redes <br>
+    <a href="#">Instagram</a>, <a href="#">Facebook</a>, <a href="#">WhatsApp</a></p>
+  </footer>
 
   <script src="script.js"></script>
 </body>
